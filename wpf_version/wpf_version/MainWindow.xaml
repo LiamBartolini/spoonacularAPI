@@ -1,0 +1,17 @@
+﻿<Window x:Class="wpf_version.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_version"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="27,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" GotFocus="RemoveText" LostFocus="AddText" Name="max_carbs" Text="Enter max amount of carbs..." Height="30" />
+        <TextBox HorizontalAlignment="Left" Margin="27,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" GotFocus="RemoveText" LostFocus="AddText" Name="max_pro" Text="Enter max amount of pro..." Height="30" />
+        <TextBox HorizontalAlignment="Left" Margin="27,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" GotFocus="RemoveText" LostFocus="AddText" Name="max_cals" Text="Enter max amount of cals..." Height="30" />
+        <TextBox HorizontalAlignment="Left" Margin="27,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" GotFocus="RemoveText" LostFocus="AddText" Name="max_fat" Text="Enter max amount of fat..." Height="30" />
+        <TextBox HorizontalAlignment="Left" Margin="27,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" GotFocus="RemoveText" LostFocus="AddText" Name="main_ingredient" Text="Enter the main ingredient..." Height="30" />
+        <Button Content="Button" HorizontalAlignment="Left" Margin="284,54,0,0" VerticalAlignment="Top" Height="55" Width="137"/>
+    </Grid>
+</Window>
