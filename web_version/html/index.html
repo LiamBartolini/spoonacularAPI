@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Spoonacular API</title>
+</head>
+<body>
+    <div class="container">
+        <label for="max_carbs">Max amount of carbs</label>
+        <input type="number" name="max_carbs" id="max_carbs" placeholder="Enter max amount of carbs..." min="0" max="150">
+        <br />
+        
+        <label for="max_pro">Max amount of pro</label>
+        <input type="number" name="max_pro" id="max_pro" placeholder="Enter max amount of pro..." min="0" max="150">
+        <br />
+
+        <label for="max_cals">Max amount of cals</label>
+        <input type="number" name="max_cals" id="max_cals" placeholder="Enter max amount of cals..." min="0" max="1000">
+        <br />
+
+        <label for="max_fat">Max amount of fat</label>
+        <input type="number" name="max_fat" id="max_fat" placeholder="Enter max amount of fat..." min="0" max="100">
+        <br />
+
+        <label for="main_ingredient">Main ingredient</label>
+        <input type="text" name="main_ingredient" id="main_ingredient" placeholder="Enter the main ingredient..." required>
+        <br />
+
+        <label for="number">Number of recipes</label>
+        <input type="number" name="number" id="number" placeholder="Enter the number of recipes..." min="1">
+        
+        <button id="get_recipes">Get recipes</button>
+        
+        <div class="response" id="response"> </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
